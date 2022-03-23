@@ -15,7 +15,7 @@ const Home = (props) => {
                 <i className="fas fa-plus add-btn"></i>
               </Link>
             </div>
-            <div className="list-content">
+            <div>
               <h3> {props.people.length} Birthdays today</h3>
             </div>
             <List people={props.people} fetchPeople={props.fetchPeople} />
